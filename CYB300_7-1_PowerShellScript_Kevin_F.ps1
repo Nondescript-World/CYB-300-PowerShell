@@ -11,7 +11,7 @@ Get-Service
 Stop-Service -Name "Spooler" -Force
 powercfg.exe /setacvalueindex SCHEME_CURRENT SUB_VIDEO VIDEOCONLOCK 180
 powercfg.exe /setactive SCHEME_CURRENT
-Get-WinEvent -LogName 'Security' -MaxEvents 50 | Out-File c:\SecurityLog_Ford.txt
+Get-WinEvent -LogName 'Security' -MaxEvents 50 | Out-File c:\SecurityLog_Kevin.txt
 
 
 
